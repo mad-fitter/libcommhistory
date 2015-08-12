@@ -21,12 +21,12 @@
 ******************************************************************************/
 
 #ifndef DEBUG_H
-define DEBUG_H
+#define DEBUG_H
 
 #include <QDebug>
 
 // Define this if you'd like to see debug messages from declarative commhistory module
-// #define DEBUG_COMMHISTORY
+#define DEBUG_COMMHISTORY
 #ifdef DEBUG_COMMHISTORY
 # define DEBUG qDebug
 #else
